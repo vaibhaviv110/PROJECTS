@@ -77,8 +77,8 @@
         /* ================= CARD ================= */
 
         .project-card {
-            background: white;
-            border: none;
+            background: transparent;
+            border: 1px solid blue;
             border-radius: 18px;
             padding: 35px 25px;
             height: 100%;
@@ -88,8 +88,9 @@
         }
 
         .project-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+            border-color: #00c6ff;
+            transform: translateY(-8px);
+            box-shadow: 0 0 20px rgba(0, 198, 255, 0.4);
         }
 
         /* ICON */
@@ -135,16 +136,12 @@
         .project-btn {
             display: inline-block;
             margin-top: 15px;
-
-            background: #24292f;
+            background: #498ada;
             color: white;
-
             padding: 11px 22px;
             border-radius: 7px;
-
             text-decoration: none;
             font-weight: 600;
-
             transition: 0.3s;
         }
 

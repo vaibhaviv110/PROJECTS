@@ -9,7 +9,6 @@ void main()
       long int a;
     int count = 0;
 
-    clrscr();
 
     printf("Enter any Number: ");
     scanf("%ld", &a); 

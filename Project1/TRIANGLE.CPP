@@ -13,8 +13,5 @@ void main()
 	thirdangle =180-firstangle-secondangle;
 	printf("Third Angle: %d",thirdangle);
 
-
-
-
 	getch();
 }
